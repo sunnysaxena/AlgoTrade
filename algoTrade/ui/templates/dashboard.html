@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DashBoard</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="{{url_for('static', filename='base.js')}}" ></script>
+    <link rel="stylesheet" href="{{url_for('static', filename='base.css') }}">
+</head>
+<body>
+    <button id="profile" onclick="getProfile()" type="button">Profile</button>
+    <br>
+    <br>
+    <button id="fund" onclick="getFund()" type="button">Fund</button>
+    <div id="fundinfo"></div>
+    <br>
+
+    <button id="holding" onclick="getHolding()" type="button">Holding</button>
+    <div id="showHolding"></div>
+
+</body>
+</html>

@@ -1,0 +1,2 @@
+{"level":"ERROR","location":"[On_error:261] order_ws","message":"Connection to remote host was lost.","timestamp":"2025-02-03 15:51:56,298+0530","service":"FyersDataSocket"}
+{"level":"ERROR","location":"[On_error:261] order_ws","message":"Connection to remote host was lost.","timestamp":"2025-02-03 16:05:56,268+0530","service":"FyersDataSocket"}

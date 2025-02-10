@@ -1,0 +1,15 @@
+.idea
+.ipynb_checkpoints
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+credentials.ini
+access_token.txt
+.env
+logs
+delta
+backup
+
+# PyPI configuration file
+.pypirc
